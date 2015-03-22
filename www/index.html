@@ -46,7 +46,7 @@
     </head>
     <body>
         <div class="app">
-            <h1><center>InstaSoft</center></h1>
+            <h1 style="width: 100%; background-color: #ffffff; height: 43px;"><center><img src="img/clearview.jpg" /></center></h1>
         </div>			
 	
 	<script>
@@ -81,7 +81,7 @@
 					console.log(data.search("ClearView - Login") != -1);
 	
 				if(!(data.search("ClearView - Login") != -1)) {
-							alert("authentication success");
+							alert("authentication success"); //maybe wanna takeout
 							window.location="main.html";
 				} else {
 							// response is JSON version of the Spring's Authentication
