@@ -68,6 +68,5 @@
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
 	<access origin="http://democv.softrek.com:8082/" />
 	<access origin="*" />
-	<access origin="http://democv.softrek.com:8082/clearview-api/external/prospect/search?token=f37f22f4-4eea-4c93-a241-2723a879971e&q=homer" />
 	<access subdomains="true" uri="http://democv.softrek.com:8082" /> 
 </widget>
