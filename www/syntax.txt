@@ -8,7 +8,7 @@ http://democv.softrek.com:8082/clearview-api/external/prospect/1/images?token=f3
 
 
 http://democv.softrek.com:8082/clearview-api/external/prospect/1/image/upload?token=f37f22f4-4eea-4c93-a241-2723a879971e
-
+http://democv.softrek.com:8082/clearview-api/external/attachment/delete?token=f37f22f4-4eea-4c93-a241-2723a879971e
 
 post for picture upload
 Referer: http://democv.softrek.com:8082/clearview-api/view/prospect/1
