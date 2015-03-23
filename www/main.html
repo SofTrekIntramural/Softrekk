@@ -50,9 +50,9 @@
 	    </div>
 		
 		<div data-role="header">
-		    <a href="#" style="background-color: green; height: 29px;" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+		    <a href="#" style="background-color: green; height: 22px; padding-top: 15px;" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
 			<h1><center><img src="img/cleargray.png" /></center></h1>
-			<a href="#myPanel" style="background-color: green; height: 29px;" class="ui-btn ui-btn-inline ui-icon-search ui-btn-icon-left ui-corner-all ui-shadow">Search</a>
+			<a href="#myPanel" style="background-color: green; height: 22px; padding-top: 15px;" class="ui-btn ui-btn-inline ui-icon-search ui-btn-icon-left ui-corner-all ui-shadow">Search</a>
 		</div>
 	
 	
@@ -71,8 +71,6 @@
 			<br>
 			<!-- <input type="text" name="userTxt" id="userTxt" value="Search for user..."> -->
 			<!-- <button class="ui-btn ui-icon-search ui-btn-icon-left" id="search" onclick="findUser()">Search</button> -->
-<<<<<<< HEAD
-			<br>
 
 			Picture Deletion:
 			<form id="the-form" method="POST" action="http://democv.softrek.com:8082/clearview-api/external/attachment/delete?token=f37f22f4-4eea-4c93-a241-2723a879971e" enctype="multipart/form-data">
@@ -80,27 +78,15 @@
 				<!-- <input name="attachmentType" type="text" value="PRO">
 				<input name="data" type="file"> -->
 				<input style="display:none" name="token" type="text" value="f37f22f4-4eea-4c93-a241-2723a879971e">
-				<input data-icon="action" value="Delete Image" type="submit" >
+				<input value="Delete Image" type="submit" >
 			</form>
 			
 			<br>
-=======
-			<br>
-		     Picture Deletion:
-			<form id="the-form" method="POST" action="http://democv.softrek.com:8082/clearview-api/external/attachment/delete?token=f37f22f4-4eea-4c93-a241-2723a879971e" enctype="multipart/form-data">
-				<input name="transnum" type="text" value="Enter transnum of file to delete">
-				<!-- <input name="attachmentType" type="text" value="PRO">
-				<input name="data" type="file"> -->
-				<input style="display:none" name="token" type="text" value="f37f22f4-4eea-4c93-a241-2723a879971e">
-				<input data-icon="action" value="Delete Image" type="submit" >
-			</form>
-			<br>
->>>>>>> ec98c200c563854f0a10ac29a690b850bfc55d0f
 			<img id="myImage" src="" style="margin: auto 0; style="width:250px; height:120px; margin-left:-125px; position: absolute""></img>
 			<br>
 		</div>	
 
-		<div data-role="footer" style="background-color: green; ">	
+		<div data-role="footer" style="background-color: green; margin-top: 7.9em; margin-bottom: -2px;">	
 			<center>
 			<button class="ui-btn ui-icon-grid ui-btn-icon-left" onclick="getPic(pictureSource.PHOTOLIBRARY);">Library</button>
 			<button class="ui-btn ui-icon-camera ui-btn-icon-left" onclick="takePic();">Take a Picture</button>
