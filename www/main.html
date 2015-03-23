@@ -71,6 +71,7 @@
 			<br>
 			<!-- <input type="text" name="userTxt" id="userTxt" value="Search for user..."> -->
 			<!-- <button class="ui-btn ui-icon-search ui-btn-icon-left" id="search" onclick="findUser()">Search</button> -->
+<<<<<<< HEAD
 			<br>
 
 			Picture Deletion:
@@ -83,6 +84,18 @@
 			</form>
 			
 			<br>
+=======
+			<br>
+		     Picture Deletion:
+			<form id="the-form" method="POST" action="http://democv.softrek.com:8082/clearview-api/external/attachment/delete?token=f37f22f4-4eea-4c93-a241-2723a879971e" enctype="multipart/form-data">
+				<input name="transnum" type="text" value="Enter transnum of file to delete">
+				<!-- <input name="attachmentType" type="text" value="PRO">
+				<input name="data" type="file"> -->
+				<input style="display:none" name="token" type="text" value="f37f22f4-4eea-4c93-a241-2723a879971e">
+				<input data-icon="action" value="Delete Image" type="submit" >
+			</form>
+			<br>
+>>>>>>> ec98c200c563854f0a10ac29a690b850bfc55d0f
 			<img id="myImage" src="" style="margin: auto 0; style="width:250px; height:120px; margin-left:-125px; position: absolute""></img>
 			<br>
 		</div>	
