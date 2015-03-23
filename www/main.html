@@ -50,9 +50,9 @@
 	    </div>
 		
 		<div data-role="header">
-		    <a href="#" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+		    <a href="#" style="background-color: green; height: 29px;" class="ui-btn ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
 			<h1><center><img src="img/cleargray.png" /></center></h1>
-			<a href="#myPanel" class="ui-btn ui-btn-inline ui-icon-search ui-btn-icon-left ui-corner-all ui-shadow">Search</a>
+			<a href="#myPanel" style="background-color: green; height: 29px;" class="ui-btn ui-btn-inline ui-icon-search ui-btn-icon-left ui-corner-all ui-shadow">Search</a>
 		</div>
 	
 	
@@ -65,7 +65,7 @@
 				<input name="attachmentType" type="text" value="JPG">
 				<input name="data" type="file">
 				<input style="display:none" name="token" type="text" value="f37f22f4-4eea-4c93-a241-2723a879971e">
-				<input data-icon="action" value="Upload Image" type="submit" >
+				<input value="Upload Image" type="submit" >
 			</form>
 			<br>
 			<br>
@@ -74,14 +74,14 @@
 			<br>		
 
 			<br>
-			<img id="myImage" src="" style="left: 50%; style="width:250px; height:120px; margin-left:-125px; position: absolute""></img>
+			<img id="myImage" src="" style="margin: auto 0; style="width:250px; height:120px; margin-left:-125px; position: absolute""></img>
 			<br>
 		</div>	
 
-		<div data-role="footer">	
-			<button class="ui-btn ui-icon-camera ui-btn-icon-left" onclick="takePic();">Take a Picture</button>
-			<button class="ui-btn ui-icon-grid ui-btn-icon-left" onclick="getPic(pictureSource.PHOTOLIBRARY);">Library</button>		
-			<button class="ui-btn ui-icon-grid ui-btn-icon-left" onclick="getPic(pictureSource.SAVEDPHOTOALBUM);">Album</button>	
+		<div data-role="footer" style="background-color: green; ">	
+			<center><button class="ui-btn ui-icon-camera ui-btn-icon-left" onclick="takePic();">Take a Picture</button>
+			<button class="ui-btn ui-icon-grid ui-btn-icon-left" onclick="getPic(pictureSource.PHOTOLIBRARY);">Library</button>
+			<button class="ui-btn ui-icon-grid ui-btn-icon-left" onclick="getPic(pictureSource.SAVEDPHOTOALBUM);">Album</button></center>	
 		</div>
 	</body>
 </html>
